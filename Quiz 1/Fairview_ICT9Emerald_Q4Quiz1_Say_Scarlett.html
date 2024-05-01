@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <title>Quiz 1</title>
+    <style>
+    	img {
+    		width: 150px;
+    		height: auto;
+    	}
+    	.form-control {
+    		width: 280px;
+    	}
+    </style>
+</head>
+<body>
+    <center>
+        <div id="col-md-10"><br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/340px-Default_pfp.svg.png"></img><br><br>
+
+            <p> Please input your login info here. </p><br>
+
+       
+            <form id="email1" class="form-group" action="projects.html">
+                <label id="email1">Email:</label>
+                <input type="text" class="form-control bg-light" name="email" id="email">
+                <br>
+                <label id="password2">Password:</label>
+                <input type="text" class="form-control bg-light" name="password" id="password">
+                <br>
+
+                <a href="Quiz1Page2.html" type="submit" class="btn btn-success">Login</a>
+                <a href="#" type="reset" class="btn btn-primary">Cancel</a>
+            </form>
+
+            <script type="text/javascript">
+                document.getElementById("email1").innerHTML = "Email:";
+                document.getElementById("password2").innerHTML = "Password:";
+                    window.location.href = "Quiz1Page2.html";});
+            </script>
+        </div>
+    </center>
+</body>
+</html>
